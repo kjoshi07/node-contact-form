@@ -12,7 +12,9 @@
  ##End Points
  End points can be find in /app/routes.js
  
- End Points	                    URL	                 Description
-  GET	                          /                    get welcome message to check api working fine.
-  POST	                        /contactRequest	     Create a contact request, save all information in database and send email notification.
-  GET                           /contactRequest      get all contact requests saved in database.
+
+  GET  ( '/': get welcome message to check api working fine.)
+
+  POST ( '/contactRequest':  Create a contact request, save all information in database and send email notification.)
+
+  GET   ('/contactRequest': get all contact requests saved in database.)
